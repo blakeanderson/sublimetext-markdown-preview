@@ -12,5 +12,19 @@
         "args": {
             "target": "sublime"
         }
+    },
+    {
+        "caption": "Markdown Preview: publish current file to Tumblr",
+        "command": "markdown_preview",
+        "args": {
+            "target": "tumblr"
+        }
+    },
+    {
+        "caption": "Markdown Preview: send current file to Tumblr as a draft",
+        "command": "markdown_preview",
+        "args": {
+            "target": "tumblr_draft"
+        }
     }
 ]
