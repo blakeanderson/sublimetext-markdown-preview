@@ -6,7 +6,14 @@ A simple ST2 plugin to help you preview your markdown files, and send them to Tu
 **Installation :**
 
  - Clone the repository
- - Copy the plugin folder to the Sublime Text packages directory
+ ``` shell
+ git clone https://github.com/blakeanderson/sublimetext-markdown-preview.git MarkdownPreview
+ ```
+ - Place the plugin in your Sublime Text 2 `Packages` directory
+
+  - OS X: `~/Library/Application Support/Sublime Text 2/Packages/`
+  - Windows: `%APPDATA%/Sublime Text 2/Packages/`
+  - Linux: `~/.Sublime Text 2/Packages/`
 
 **Usage :**
 
