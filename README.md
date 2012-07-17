@@ -1,27 +1,24 @@
-Sublime Text 2 MarkDown preview
+Sublime Text 2 MarkDown preview - Tumblr Fork
 =====
 
-A simple ST2 plugin to help you preview your markdown files.
-
-Just preview the current md file in your web browser.
+A simple ST2 plugin to help you preview your markdown files, and send them to Tumblr.
 
 **Installation :**
 
- - you should use [sublime package manager][3]
- - use `cmd+shift+P` then `Package Control: Install Package`
- - look for `MarkdownPreview` and install it.
+ - Clone the repository
+ - Copy the plugin folder to the Sublime Text packages directory
 
 **Usage :**
 
- - use `cmd+shift+P` then `MarkdownPreview` to launch a preview
- - or bind some key in your user key binding
+ - use `cmd+shift+P` then `MarkdownPreview: publish current file to Tumblr` to send the current file to Tumblr and mark it as published
+ - use `cmd+shift+P` then `MarkdownPreview: send current file to Tumblr as a draft` to launch send the current file to Tumblr as a draft
 
 **Uses :**
 
  - [python-markdown][0] for markdown parsing
  - [clownfart markown.css][1] for markdown styling
 
-The code is available at github [https://github.com/revolunet/sublimetext-markdown-preview][2]
+The tumblr fork code is available at github [https://github.com/blakeanderson/sublimetext-markdown-preview][2]
 
 Licence MIT : [http://revolunet.mit-license.org][4]
 
