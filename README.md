@@ -15,7 +15,7 @@ A simple ST2 plugin to help you preview your markdown files, and send them to Tu
   - Windows: `%APPDATA%/Sublime Text 2/Packages/`
   - Linux: `~/.Sublime Text 2/Packages/`
 
-  **Settings :**
+**Settings :**
   
   For the plugin to work, you will need to update MarkdownPreview.sublime-settings
 
@@ -25,12 +25,11 @@ A simple ST2 plugin to help you preview your markdown files, and send them to Tu
 
   	{
   		// Tumblr Username
-  		"email": "",
+  		"email": "", 
 
   		// Tumblr Password
-  		"password": ""
-  	}%  
-
+  		"password": "",
+  	}
 
 **Usage :**
 
