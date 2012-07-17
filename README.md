@@ -15,6 +15,23 @@ A simple ST2 plugin to help you preview your markdown files, and send them to Tu
   - Windows: `%APPDATA%/Sublime Text 2/Packages/`
   - Linux: `~/.Sublime Text 2/Packages/`
 
+  **Settings :**
+  
+  For the plugin to work, you will need to update MarkdownPreview.sublime-settings
+
+  Add your Tumblr username and password.
+
+  `MarkdownPreview.sublime-settings`
+
+  	{
+  		// Tumblr Username
+  		"email": "",
+
+  		// Tumblr Password
+  		"password": ""
+  	}%  
+
+
 **Usage :**
 
  - use `cmd+shift+P` then `MarkdownPreview: publish current file to Tumblr` to send the current file to Tumblr and mark it as published
